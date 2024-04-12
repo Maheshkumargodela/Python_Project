@@ -1,0 +1,19 @@
+<div class='lead mt-2 mb-4 row' style='color:rgb(100,100,100);' >
+  <div class="col-9">
+  <h4>{{list['title']}}</h4>
+  <b><div>Location :  </b> {{list['location']}}</div>
+  {% if 'salary' in list %}
+  <div><b>Salary : </b>{{list['salary']}}</div>
+    {%endif%}
+  </div>
+  <div class="col-3">
+    <div class ='row-1'>
+    </div>
+    <div>
+    <button type="button" class="btn btn-outline-secondary">Apply</button>
+      </div>
+  </div>
+<div class="col-12 text-center mt-2 mb-4">
+  <hr />
+</div>
+</div>
